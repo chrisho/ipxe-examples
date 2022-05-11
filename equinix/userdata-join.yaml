@@ -2,9 +2,7 @@
 server_url: https://<new_cluster_server_ip>:8443
 token: token           # replace with the token you set when creating a new cluster
 os:
-  ssh_authorized_keys:
-  - ssh-rsa ...        # replace with your public key
-  password: p@ssword   # replace with a your password
+  password: root  # replace with a your password
   ntp_servers:
   - 0.suse.pool.ntp.org
   - 1.suse.pool.ntp.org
